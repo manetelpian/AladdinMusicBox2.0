@@ -1,0 +1,250 @@
+1: html doctype heading
+2: html opening tag
+3: opening head tag
+4: audio tag to link to error sound (aladdin_problem.wav)
+5: link to external stylesheet
+6: style tag
+7: set body style attributes
+8: set body font to Eagle Lake
+9: set background to Agrabah.png
+10: fix background attachment to whole page
+11: set background size to cover whole page
+12: closing bracket
+13: set text area attributes
+14: set text area font color to html hex code #660F5F
+15: closing bracket
+16: closing style tag
+17: opening script tag
+18: link src to jQuery JavaScript Library v3.4.1
+19:
+20
+21: closing head tag
+22: opening body tag
+23: heading1 tag
+24: heading2 tag
+25: opening paragraph tag
+26: image tag linked to source aladdin.gif
+27: closing paragraph tag
+28: opening div tag to position text area and play button
+29:
+30: opening text area tag
+31: assign default .wav to A
+32: assign default .wav to B
+33: assign default .wav to C
+34: assign default .wav to D
+35: assign default .wav to E
+36: assign default .wav to F
+37: assign default .wav to G
+38: assign default .wav to H
+39: assign default .wav to I
+40: assign default .wav to J
+41: notes to Arabian Nights included in text area
+42: notes to Arabian Nights included in text area
+43: notes to Arabian Nights included in text area
+44: notes to Arabian Nights included in text area
+45: notes to Arabian Nights included in text area
+46: notes to Arabian Nights included in text area
+47: notes to Arabian Nights included in text area
+48: notes to Arabian Nights included in text area
+49: notes to Arabian Nights included in text area
+50: notes to Arabian Nights included in text area
+51: notes to Arabian Nights included in text area
+52: notes to Arabian Nights included in text area
+53: notes to Arabian Nights included in text area
+54: notes to Arabian Nights included in text area
+55: notes to Arabian Nights included in text area
+56: notes to Arabian Nights included in text area
+57: notes to Arabian Nights included in text area
+58: notes to Arabian Nights included in text area
+59: notes to Arabian Nights included in text area
+60: notes to Arabian Nights included in text area
+61: notes to Arabian Nights included in text area
+62: notes to Arabian Nights included in text area
+63: notes to Arabian Nights included in text area
+64: notes to Arabian Nights included in text area
+65: notes to Arabian Nights included in text area
+66: notes to Arabian Nights included in text area
+67: notes to Arabian Nights included in text area
+68: notes to Arabian Nights included in text area
+69: notes to Arabian Nights included in text area
+70: notes to Arabian Nights included in text area
+71: notes to Arabian Nights included in text area
+72: notes to Arabian Nights included in text area
+73: notes to Arabian Nights included in text area
+74: notes to Arabian Nights included in text area
+75: notes to Arabian Nights included in text area
+76: notes to Arabian Nights included in text area
+77: notes to Arabian Nights included in text area
+78: notes to Arabian Nights included in text area
+79: notes to Arabian Nights included in text area
+80: notes to Arabian Nights included in text area
+81: notes to Arabian Nights included in text area
+82: notes to Arabian Nights included in text area
+83: notes to Arabian Nights included in text area
+84: notes to Arabian Nights included in text area
+85: notes to Arabian Nights included in text area
+86: notes to Arabian Nights included in text area
+87: notes to Arabian Nights included in text area
+88: notes to Arabian Nights included in text area
+89: notes to Arabian Nights included in text area
+90: notes to Arabian Nights included in text area
+91: notes to Arabian Nights included in text area
+92: notes to Arabian Nights included in text area
+93: notes to Arabian Nights included in text area
+94: notes to Arabian Nights included in text area
+95: notes to Arabian Nights included in text area
+96: notes to Arabian Nights included in text area
+97: notes to Arabian Nights included in text area
+98: notes to Arabian Nights included in text area
+99: notes to Arabian Nights included in text area
+100: notes to Arabian Nights included in text area
+101: notes to Arabian Nights included in text area
+102: notes to Arabian Nights included in text area
+103: notes to Arabian Nights included in text area
+104: notes to Arabian Nights included in text area
+105: notes to Arabian Nights included in text area
+106: notes to Arabian Nights included in text area
+107: notes to Arabian Nights included in text area
+108: notes to Arabian Nights included in text area
+109: notes to Arabian Nights included in text area
+110: notes to Arabian Nights included in text area
+111: notes to Arabian Nights included in text area
+112: notes to Arabian Nights included in text area
+113: notes to Arabian Nights included in text area
+114: notes to Arabian Nights included in text area
+115: notes to Arabian Nights included in text area
+116: notes to Arabian Nights included in text area
+117: notes to Arabian Nights included in text area
+118: notes to Arabian Nights included in text area
+119: notes to Arabian Nights included in text area
+120: notes to Arabian Nights included in text area
+121: notes to Arabian Nights included in text area
+122: notes to Arabian Nights included in text area
+123: notes to Arabian Nights included in text area
+124: notes to Arabian Nights included in text area
+125: notes to Arabian Nights included in text area
+126: notes to Arabian Nights included in text area
+127: notes to Arabian Nights included in text area
+128: notes to Arabian Nights included in text area
+129: notes to Arabian Nights included in text area
+130: notes to Arabian Nights included in text area
+131: notes to Arabian Nights included in text area
+132: notes to Arabian Nights included in text area
+133: notes to Arabian Nights included in text area
+134: notes to Arabian Nights included in text area
+135: notes to Arabian Nights included in text area
+136: notes to Arabian Nights included in text area
+137: notes to Arabian Nights included in text area
+138: notes to Arabian Nights included in text area
+139: notes to Arabian Nights included in text area
+140: notes to Arabian Nights included in text area
+141: notes to Arabian Nights included in text area
+142: notes to Arabian Nights included in text area
+143: notes to Arabian Nights included in text area
+144: notes to Arabian Nights included in text area
+145: notes to Arabian Nights included in text area
+146: notes to Arabian Nights included in text area
+147: notes to Arabian Nights included in text area
+148: notes to Arabian Nights included in text area
+149: notes to Arabian Nights included in text area
+150: notes to Arabian Nights included in text area
+151: notes to Arabian Nights included in text area
+152: notes to Arabian Nights included in text area
+153: notes to Arabian Nights included in text area
+154: notes to Arabian Nights included in text area
+155: notes to Arabian Nights included in text area
+156: notes to Arabian Nights included in text area
+157: notes to Arabian Nights included in text area
+158: notes to Arabian Nights included in text area
+159: notes to Arabian Nights included in text area
+160: notes to Arabian Nights included in text area
+161: notes to Arabian Nights included in text area
+162: notes to Arabian Nights included in text area
+163: notes to Arabian Nights included in text area
+164: notes to Arabian Nights included in text area
+165: notes to Arabian Nights included in text area
+166: notes to Arabian Nights included in text area
+167: notes to Arabian Nights included in text area
+168: notes to Arabian Nights included in text area
+169: notes to Arabian Nights included in text area
+170: notes to Arabian Nights included in text area
+171: notes to Arabian Nights included in text area
+172: notes to Arabian Nights included in text area
+173: notes to Arabian Nights included in text area
+174: notes to Arabian Nights included in text area
+175: notes to Arabian Nights included in text area
+176: notes to Arabian Nights included in text area
+177: notes to Arabian Nights included in text area
+178: notes to Arabian Nights included in text area
+179: notes to Arabian Nights included in text area
+180: notes to Arabian Nights included in text area
+181: notes to Arabian Nights included in text area
+182: notes to Arabian Nights included in text area
+183: notes to Arabian Nights included in text area
+184: notes to Arabian Nights included in text area
+185: notes to Arabian Nights included in text area
+186: notes to Arabian Nights included in text area
+187: notes to Arabian Nights included in text area
+188: notes to Arabian Nights included in text area
+189: notes to Arabian Nights included in text area
+190: notes to Arabian Nights included in text area
+191: notes to Arabian Nights included in text area
+192: closing text area tag
+193: opening text area tag for html code output "compiled_code"
+194: closing text area tag
+195:
+196: button tag to call play function() if clicked
+197: closing div tag
+198:
+199: opening script tag
+200: definition of play() function
+201: created notes_p array
+202: declare string to hold notes
+203: declare string to hold wav_snip
+204: created wav_array array
+205: split notes from text area using new lines and place into notes_raw
+206: loop through the notes in notes_raw array
+207: if statement checks to see if match is not null using regex and going through the entered line and seeing if the format is A-J "=" .wav
+208: opening bracket
+209: set note to second element in match array
+210: set wav_snip to third element in match array
+211: set the wav_array with the index of the note to the corresponding .wav file
+212: closing bracket
+213: if statement checks to see if match is not null using regex and going through the entered line and seeing if the format is A-J
+214: check to see if first element of match is not in the wav_array in order to throw an error
+215: get error sound file from html header
+216: alert the user of the error
+217: closing bracket
+218: opening else statement
+219: push the value in wav_array to notes_p array
+220: closing bracket
+221: closing bracket
+222: closing bracket
+223: declare and set timing count to 0
+224: set index offset to 400
+225:
+226: check is notes_p is not null
+227: loop through notes_p array to play each .wav according to corresponding note
+228: call setTimeout function
+229: play .wav audio file that is in the current index of notes_p array
+230: multiply current index by offset to play note for that amount of time
+231: closing bracket
+232: closing bracket
+233:
+234: declare string htmlTEMPLATE
+235: add html upper header and body to htmlTEMPLATE string
+236: add code to play song in script tags
+237: add html lower header and body to htmlTEMPLATE string
+238:
+239: declare string to hold code output
+240:
+241: loop through notes_p array to play the audio according to the corresponding note
+242: set code output to corresponding code
+243: set code output to corresponding code
+244: set code output to offset * current index
+245: closing bracket
+246: place the string htmlTEMPLATE into "compiled_code" text area
+247: closing bracket
+248: closing script tag
+249: closing body tag
+250: closing html tag

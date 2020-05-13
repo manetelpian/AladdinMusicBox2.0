@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<audio id="ERROR" src="aladdin_problem.wav" preload="auto"></audio>
+<link href='https://fonts.googleapis.com/css?family=Eagle Lake' rel='stylesheet'>
+<style>
+body{
+  font-family:'Eagle Lake';
+  background-image: url('Agrabah.png');
+  background-attachment: fixed;
+  background-size: cover;
+}
+textarea {
+    color: #660F5F;
+    }
+</style>
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+<h1 style="color:white;" align = "center">Programming Assignment 3: Musicbox the Sequel </h1>
+<h2 style= "color:white;" align = "center"> By: Mane Telpian </h2>
+<p>
+<img style = "position:absolute; top:500px; left:1100px" src="aladdin.gif" >
+</p>
+<div style = "position:absolute; top:300px; left:530px">
+
+<textarea id="inputNotes" rows="15" cols="25">
+A=A.wav
+B=B.wav
+C=C.wav
+D=D.wav
+E=E.wav
+F=F.wav
+G=G.wav
+H=H.wav
+I=I.wav
+J=J.wav
+  C
+   D
+    E
+  C
+   D
+    E
+  C
+    E
+       H
+ B
+        I
+       H
+ B
+       H
+   D
+   D
+   D
+   D
+    E
+  C
+    E
+     F
+      G
+       H
+     F
+      G
+       H
+      G
+         J
+   D
+    E
+         J
+   D
+         J
+     F
+     F
+     F
+     F
+      G
+    E
+A
+ B
+  C
+       H
+A
+ B
+  C
+       H
+A
+ B
+  C
+    E
+A
+ B
+  C
+    E
+A
+ B
+  C
+A
+A
+ B
+  C
+A
+A
+    E
+     F
+      G
+    E
+  C
+   D
+    E
+  C
+    E
+       H
+ B
+        I
+       H
+ B
+       H
+    E
+       H
+    E
+  C
+ B
+A
+A
+ B
+  C
+    E
+       H
+    E
+       H
+  C
+ B
+  C
+ B
+A
+    E
+       H
+    E
+       H
+  C
+  C
+ B
+A
+    E
+    E
+      G
+    E
+   D
+    E
+  C
+    E
+       H
+  C
+       H
+    E
+A
+A
+ B
+  C
+    E
+       H
+    E
+       H
+  C
+ B
+  C
+ B
+A
+    E
+       H
+    E
+       H
+  C
+  C
+  C
+ B
+A
+    E
+    E
+      G
+    E
+   D
+    E
+    E
+       H
+  C
+ B
+A
+</textarea>
+<textarea id = "compiled_code" rows = "15" cols = "25">
+</textarea>
+
+<button type="button" onclick="play()">Play</button>
+</div>
+
+<script>
+function play(){
+  notes_p = [];
+  notes = "";
+  wav_snip = "";
+  wav_array = [];
+  notes_raw = $("#inputNotes").val().split(/\r?\n/);
+  for(let i = 0; i < notes_raw.length; i++){
+      if((match = notes_raw[i].match(/([A-J])\x3D([A-J].wav)/))!== null)
+      {
+          notes = match[1];
+          wav_snip = match[2];
+          wav_array[notes] = wav_snip;
+      }
+      else if((match = notes_raw[i].match(/[A-J]/))!==null){
+          if(!(match[0] in wav_array)){
+              document.getElementById('ERROR').play();
+              alert("ERROR! \nYou got a big problem, " + match[0] + " is not assigned to a sound file!\nFormat should be as such, A=A.wav");
+          }
+          else{
+              notes_p.push(wav_array[match[0]]);
+          }
+      }
+  }
+    timing = 0;
+    index_offset = 400;
+
+    if (notes_p!== null){
+        for(let i = 0; i < notes_p.length; i++){
+            setTimeout(function(){
+            new Audio(notes_p[i]).play();
+          },index_offset*i);
+        }
+    }
+
+htmlTEMPLATE = "<!doctype html>";
+htmlTEMPLATE = htmlTEMPLATE + "<html><head><\/head ><body>";
+htmlTEMPLATE = htmlTEMPLATE + "<script>@@@PLAY_CODE <\/script>";
+htmlTEMPLATE = htmlTEMPLATE + "<\/body ><\/html>";
+
+code_output = "";
+
+for(let i = 0; i<notes_p.length; i++){
+    code_output = code_output + "setTimeout(function(){"
+    code_output = code_output + "new Audio(\"" + notes_p[i] + "\").play()"
+    code_output = code_output + "}, " + index_offset + " * " + i + ");";
+}
+$("#compiled_code").val(htmlTEMPLATE.replace("@@@PLAY_CODE", code_output));
+}
+</script>
+</body>
+</html>
